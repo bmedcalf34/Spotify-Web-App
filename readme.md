@@ -1,4 +1,4 @@
-# Bennett Medcalf Project 1 Checkpoint
+# Bennett Medcalf Project 1 Checkpoint 2
 
 ## Heroku URL: https://blooming-shore-20385.herokuapp.com/
 

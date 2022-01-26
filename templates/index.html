@@ -1,6 +1,15 @@
 <HTML>
 <head>
-<link rel = "stylesheet" type = "text/css" href = "/static/style.css">
+    <h1 class = "header">If you see nothing here, put a Spotify URI in the form!</h1>
+</head>
+<body><div class = "username">
+    Logged in as: 
+    {{
+        current_user.username
+    }}
+</div>
+
+    <link rel = "stylesheet" type = "text/css" href = "/static/style.css">
 <h1 class = "name">
     {{
         song_name
@@ -20,7 +29,9 @@
         src="{{ preview }}">
     </audio>
 </h4>
-</head>
-<body>
+<form class = "form" method = "POST" action = "/add_artists">
+    <input type = "text" name = "new_artist" placeholder = "Add an Artist Here">
+    <input type = "submit" value = "Submit">       
+</form>
 </body>
 </HTML>

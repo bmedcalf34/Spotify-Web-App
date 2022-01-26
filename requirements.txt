@@ -2,3 +2,5 @@ Flask
 python-dotenv
 requests
 spotipy
+flask_login
+SQLAlchemy
